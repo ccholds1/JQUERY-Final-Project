@@ -1,0 +1,306 @@
+<<<<<<< HEAD
+body {
+ 	padding-top: 10.5px;
+  }
+body,html{
+  height: 100%;
+
+}
+}
+/*Paragroup text*/
+
+#home {
+  background-color: #000000;
+}
+.ptip{
+  text-align: center;
+  position: relative;
+
+  
+}
+.pjoy{
+  text-align: center;
+  position: relative;
+  
+}
+.phall{
+  text-align: center;
+  position: relative;
+  
+}
+.pjack{
+  text-align: center;
+  position: relative;
+  
+}
+
+/*Background images*/
+
+.bg {
+    /* The image used */
+    background-image: url("images/houseofblues.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.bgsc {
+  /* The image used */
+    background-image: url("images/spottedcat.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgm {
+   /* The image used */
+    background-image: url("images/maison.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgbn {
+  /* The image used */
+    background-image: url("images/bluenile.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgtt{
+  /* The image used */
+    background-image: url("images/tip.png");
+    
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.bgjt {
+  /* The image used */
+    background-image: url("images/joy.png");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+}
+
+.bgoej {
+  /* The image used */
+    background-image: url("images/one.png");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgph {
+  /* The image used */
+    background-image: url("images/pres.png");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*NAVBAR*/
+
+
+.navbar,.navbar-default,.navbar-fixed-top{
+  background-color: rgba(255,255,255,.75);
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0;
+  border: none;
+}
+
+.navbar,.navbar-default,.navbar-fixed-top  div{
+  background-color: #000000;
+}
+
+ .navbar {
+  min-height: 30px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 30px;
+  line-height: 25px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 5px;
+  padding: 3px 0px 0px 0px !important;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: none;
+  border: none;
+}
+
+@media (min-width: 768px) { 
+  .navbar-nav > li > a{
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    line-height: 25px;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ccc;
+}
+  #video-background{ 
+	position: absolute;
+  	height: auto;
+ 	width: auto;
+  	min-height: 100%;
+  	min-width: 100%;
+  	left: 50%;
+  	top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+  	transform: translate3d(-50%, -50%, 0);
+  	z-index: 1;
+}
+
+#heading-text.container {
+	text-align: center;
+  	position: relative;
+  	color: #ccc;
+  	z-index: 2; /* Show content above video */
+}
+
+[role=button] {
+  background: #000000;
+  color: #f1c40f;
+}
+
+/*HEADING*/
+
+#hob {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #ccc; 
+  background-size: 100%;
+  background-color: #000000;
+  padding-bottom: 10px;
+}
+
+
+/*THUMBNAILS*/
+
+
+.thumbnail {
+  display: block;
+  float: inherit;
+  border-style: solid;
+  border-color: #f1c40f;
+  text-align: center;
+  background-color: #000000;
+  margin: 20%;
+  margin-top: 65%;
+ 
+}
+
+.thumbnail > img {
+
+  height: 150px;
+  width: 300px;
+}
+
+.row {
+
+  position: relative;
+  z-index: 2;
+}
+
+/*Google Maps*/
+
+
+.mapbody{
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+  margin: 0;
+  display: flex;
+}
+
+container {
+  flex-flow: column;
+  width: 80%;
+  margin: 1% auto;
+}
+
+#map {
+  width: 100%;
+  height: 80%;
+=======
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgreen;
+  margin: 0;
+  display: flex;
+}
+
+container {
+  flex-flow: column;
+  width: 80%;
+  margin: 1% auto;
+}
+
+#map {
+  width: 100%;
+  height: 80%;
+>>>>>>> 30c725366ff51b71f7690eb2174bb295b34636bb
+}
